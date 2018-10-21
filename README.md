@@ -24,7 +24,9 @@ the backend stores a mask that is a moving average of the individual draws. The
 game rewards users that are able to match their draws with the masks, thus
 earning *Hubble time* to continue the game exploration.
 
-For example, this is the status of the mask after a test with 52 participants:
+For example, this is the status of the mask for the
+[NGC 5972](http://hubblesite.org/image/3531/gallery) galaxy after a test with
+52 participants:
 
 ![Galaxy with mask](/../master/examples/galaxy-mask.jpg?raw=true)
 
