@@ -1,0 +1,1 @@
+# Galaxy Quest scoring system

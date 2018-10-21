@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; user-scalable=0;">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <title>Shape drawing test</title>
+</head>
+
+<body>
+<div id="wrapper">
+  <img src="http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/27171/large_web.jpg" id="img" />
+  <canvas id="draw"></canvas>
+  <div id="controls">
+    <input class="controls" type="range" min="5" max="25" oninput="setLineWidth(this.value)">
+    <input class="controls" type="button" onclick="clearCanvas()" value="Clear" />
+    <input class="controls" type="button" onclick="submitCanvas()" value="Submit" />
+  </div>
+  <div id="answer"></div>
+  <script src="assets/draw.js"></script>
+</div>
+</body>
+
+</html>
